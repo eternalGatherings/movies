@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin's Cinematic World!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/videos-grid.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/generic.css">
+    <link rel="stylesheet" href="styles/sideBar.css">
+</head>
+<body>
+    <div class="header">
+        Welcome to Sachin's Cinematic World!
+    </div>
+    <div class="video-grid" id="videoGrid">
+        <!-- <div class="video">
+            <div class="video-thumbnail">
+                <iframe src="https://drive.google.com/file/d/1K-4YiqnhBMFqG8zOmixFJV0ZGUM10n7h/preview" allow="autoplay"></iframe>
+            </div>
+            <div class="video-details">
+                <div class="details">
+                    <p class="video-title">Amaran (Telugu)</p>
+                    <p class="channel-name">Quality - 720p</p>
+                    <p class="video-views">Release Year - 2024</p>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <script>
+        // Function to fetch and display videos
+        async function loadVideos() {
+            try {
+                const response = await fetch('moviesDB/moviesList.json'); // Fetch the JSON file
+                const videos = await response.json(); // Parse JSON data
+    
+                // Target container for videos
+                const videoGrid = document.getElementById('videoGrid');
+    
+                // Generate video elements
+                videos.forEach(video => {
+                    // Create video container div
+                    const videoDiv = document.createElement('div');
+                    videoDiv.classList.add('video');
+    
+                    // Create video thumbnail div
+                    const thumbnailDiv = document.createElement('div');
+                    thumbnailDiv.classList.add('video-thumbnail');
+                    
+                    // Create iframe element
+                    const iframe = document.createElement('iframe');
+                    // iframe.src = "https://drive.google.com/file/d/1K-4YiqnhBMFqG8zOmixFJV0ZGUM10n7h/preview";
+                    iframe.src = `${video["video-link"]}`;
+                    iframe.allow = "autoplay";
+                    thumbnailDiv.appendChild(iframe);
+    
+                    // Create video details div
+                    const detailsDiv = document.createElement('div');
+                    detailsDiv.classList.add('video-details');
+    
+                    // Populate video details
+                    detailsDiv.innerHTML = `
+                        <div class="details">
+                            <p class="video-title">${video["video-title"]}</p>
+                            <p class="channel-name">Quality - ${video.quality}</p>
+                            <p class="video-views">Release Year - ${video["release-year"]}</p>
+                        </div>
+                    `;
+    
+                    // Append thumbnail and details to video div
+                    videoDiv.appendChild(thumbnailDiv);
+                    videoDiv.appendChild(detailsDiv);
+    
+                    // Append video div to grid
+                    videoGrid.appendChild(videoDiv);
+                });
+            } catch (error) {
+                console.error('Error loading videos:', error);
+            }
+        }
+    
+        // Load videos on page load
+        loadVideos();
+    </script>
+</body>
+</html>
