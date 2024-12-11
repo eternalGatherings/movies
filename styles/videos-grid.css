@@ -40,7 +40,8 @@
 }
 
 .channel-name,
-.video-views {
+.video-views,
+.video-size {
   font-size: 12px;
   margin-bottom: 5px;
   color: rgb(96, 96, 96);
@@ -66,7 +67,7 @@
 }
 
 .video-info strong {
-  color: rgb(255, 107, 107);
+  color: #ff6b6b;
 }
 
 @media (min-width: 0px) and (max-width: 700px) {
