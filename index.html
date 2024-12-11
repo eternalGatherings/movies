@@ -66,8 +66,11 @@
                     detailsDiv.innerHTML = `
                         <div class="details">
                             <p class="video-title">${video["video-title"]}</p>
-                            <p class="channel-name">Quality - ${video.quality}</p>
-                            <p class="video-views">Release Year - ${video["release-year"]}</p>
+                            <div class="video-info">
+                                <p class="channel-name">Quality - <strong>${video.quality}</strong></p>
+                                <p class="video-views">Release Year - <strong>${video["release-year"]}</strong></p>
+                                <p class="video-views">File size - <strong>${video["file-size"]}</strong></p>
+                            </div>
                         </div>
                     `;
     

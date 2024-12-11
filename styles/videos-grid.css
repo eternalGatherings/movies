@@ -65,6 +65,10 @@
   border-radius: 3px;
 }
 
+.video-info strong {
+  color: rgb(255, 107, 107);
+}
+
 @media (min-width: 0px) and (max-width: 700px) {
   .video-grid {
     grid-template-columns: 1fr;
