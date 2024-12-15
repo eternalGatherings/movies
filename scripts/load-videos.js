@@ -20,7 +20,7 @@ async function loadVideos() {
             // Create iframe element
             const iframe = document.createElement('iframe');
             // iframe.src = "https://drive.google.com/file/d/1K-4YiqnhBMFqG8zOmixFJV0ZGUM10n7h/preview";
-            iframe.src = `${video["video-link"]}`;
+            iframe.src = `https://drive.google.com/file/d/${video["video-link"]}/preview`;
             iframe.allow = "autoplay";
             thumbnailDiv.appendChild(iframe);
 
