@@ -2,8 +2,8 @@
   {
     "video-link": null,
     "preview-image": [
-      "./moviesDB/mufasa1.jpg",
       "./moviesDB/mufasa2.jpg",
+      "./moviesDB/mufasa1.jpg",
       "./moviesDB/mufasa3.jpg",
       "./moviesDB/mufasa4.jpg"
     ],
@@ -21,13 +21,13 @@
     "title-tag-2": "HD"
   },
   {
-    "video-link": null,
+    "video-link": "1ZMXsGn0Z2nM89lo0MSa82rLAoV9JaZMM",
     "preview-image": "./moviesDB/devara.jpg",
     "video-title": "Devara Part-1 (Telugu)",
     "quality": "1080p",
     "release-year": "2024",
     "file-size": "1.6 GB",
-    "title-tag": "Uploading",
+    "title-tag": "New",
     "title-tag-2": "HD"
   },
   {
@@ -37,7 +37,7 @@
     "quality": "720p",
     "release-year": "2024",
     "file-size": "1.29 GB",
-    "title-tag": "New"
+    "title-tag": null
   },
   {
     "video-link": "1gxiRrkuvj9gAtaEXQvV1Ketor1b7c8Gx",
