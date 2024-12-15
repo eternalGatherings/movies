@@ -3,6 +3,10 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 20px;
   row-gap: 40px;
+  
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 40px;
 }
 
 .thumbnail, iframe {
@@ -73,9 +77,6 @@
 @media (min-width: 0px) and (max-width: 700px) {
   .video-grid {
     grid-template-columns: 1fr;
-  }
-  .thumbnail, iframe {
-    border-radius: 0px;
   }
 }
 
