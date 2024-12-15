@@ -9,12 +9,10 @@
   padding-bottom: 40px;
 }
 
-.thumbnail, iframe {
-  position: absolute;
+.video-thumbnail img {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
   border: 0;
   border-radius: 12px;
   border-style: none;
@@ -23,12 +21,6 @@
 .video-details {
   display: grid;
   grid-template-columns: 1fr;
-}
-
-.profile-pic {
-  padding-top: 5px;
-  width: 100%;
-  border-radius: 50%;
 }
 
 .details {
@@ -44,31 +36,12 @@
   line-height: 20px;
 }
 
-.channel-name,
-.video-views,
+.video-quality,
+.video-year,
 .video-size {
   font-size: 12px;
   margin-bottom: 5px;
   color: rgb(96, 96, 96);
-}
-
-.video-thumbnail {
-  position: relative;
-  width: 100%; /* This can be any desired width */
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
-  overflow: hidden;
-}
-
-.play-time {
-  background-color: black;
-  color: #fff;
-  font-size: 12px;
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  padding: 2px 3px;
-  border-radius: 3px;
 }
 
 .video-info strong {

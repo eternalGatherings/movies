@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sachin's Cinematic World!</title>
 
+  <title>Sachin's Cinematic World!</title>
+  <link rel="icon" href="./images/logo.svg" type="image/png">
 
   <meta name="msapplication-TileImage" content="image_url">
 
@@ -13,7 +14,8 @@
   <meta property="og:title" content="Sachin's Cinematic World!">
   <meta property="og:description" content="Watch your favorite movies on Sachin's Cinematic World!">
 
-  <meta property="og:image" itemprop="image" content="https://github.com/eternalGatherings/movies/blob/master/images/preview.jpeg?raw=true">
+  <meta property="og:image" itemprop="image"
+    content="https://github.com/eternalGatherings/movies/blob/master/images/preview.jpeg?raw=true">
 
   <meta property="og:type" content="website">
   <meta property="og:image:type" content="image/png">
@@ -29,10 +31,11 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous">
 
-  <link rel="stylesheet" href="styles/videos-grid.css">
-  <link rel="stylesheet" href="styles/generic.css">
+  <link rel="stylesheet" href="./styles/generic.css">
+  <link rel="stylesheet" href="./styles/videos-grid.css">
 </head>
 
 <body>
@@ -40,7 +43,7 @@
     <nav class="mb-4 navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a href="/" class="d-flex align-items-center mb-lg-0 text-white text-decoration-none">
-          <img src="./images/film.svg" alt="logo">
+          <img src="./images/logo.svg" alt="logo">
         </a>
         <a class="navbar-brand mx-3" style="color: #ff7979;" href="/">Sachin's Cinematic World!</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -68,12 +71,13 @@
     </nav>
   </section>
   <section class="Body">
-    <div class="video-grid" id="videoGrid"></div>
+    <div class="video-grid" id="videoGrid">
+    </div>
   </section>
   <section class="Footer">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
       <div class="col-md-4 d-flex align-items-center">
-        <img class="me-2" src="./images/film.svg" alt="logo">
+        <img class="me-2" src="./images/logo.svg" alt="logo">
         <span class="mb-3 mb-md-0 text-body-secondary">© 2024 sachinkn.in</a></span>
       </div>
 
@@ -97,7 +101,8 @@
   </section>
 
   <script src="./scripts/load-videos.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

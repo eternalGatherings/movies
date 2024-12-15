@@ -1,6 +1,7 @@
 [
   {
     "video-link": "1lmIXKFgsYP4ya2LFdtsGFb4aAPzeXXmK",
+    "preview-image": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/pushpa-the-rule--part-2-et00356724-1729771762.jpg",
     "video-title": "Pushpa 2-The Rule (Telugu)",
     "quality": "720p",
     "release-year": "2024",
@@ -8,12 +9,14 @@
     "title-tag": "New"
   },
   {
-    "video-link": "1LWxOiC7gUQx54RkCcXF6dxgNmoL7aJT2",
+    "video-link": null,
+    "preview-image": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/mufasa-the-lion-king-et00396541-1734081980.jpg",
     "video-title": "Mufasa The Lion King - An Epic Tale Set to Roar This December 2024",
     "title-tag": "Coming Soon"
   },
   {
     "video-link": "1gxiRrkuvj9gAtaEXQvV1Ketor1b7c8Gx",
+    "preview-image": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/miss-you-et00400689-1717667748.jpg",
     "video-title": "Miss You (Telugu)",
     "quality": "720p",
     "release-year": "2024",
@@ -22,6 +25,7 @@
   },
   {
     "video-link": "1K9hxtwJT8RjFzrgK3_nWLQfv06J8PWgr",
+    "preview-image": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/lucky-baskhar-et00386123-1707118235.jpg",
     "video-title": "Lucky Baskhar (Kannada)",
     "quality": "720p",
     "release-year": "2024",
@@ -30,6 +34,7 @@
   },
   {
     "video-link": "1_vytnib3RpmfZUvihfxu90GJL8iEyLWW",
+    "preview-image": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/amaran-et00388085-1728627184.jpg",
     "video-title": "Amaran (Telugu)",
     "quality": "720p",
     "release-year": "2024",
@@ -38,51 +43,7 @@
   },
   {
     "video-link": "1K-4YiqnhBMFqG8zOmixFJV0ZGUM10n7h",
-    "video-title": "Queen (Hindi)",
-    "quality": "360p",
-    "release-year": "2013",
-    "file-size": "809.7 MB",
-    "title-tag": null
-  },
-  {
-    "video-link": "1IXh08Qa_41EaX_6Uhbw_aR9xZ6qCBrTg",
-    "video-title": "Pushpa 2-The Rule",
-    "title-tag": "Poster"
-  }
-
-
-  ,
-  {
-    "video-link": "1LWxOiC7gUQx54RkCcXF6dxgNmoL7aJT2",
-    "video-title": "Mufasa The Lion King - An Epic Tale Set to Roar This December 2024",
-    "title-tag": "Coming Soon"
-  },
-  {
-    "video-link": "1gxiRrkuvj9gAtaEXQvV1Ketor1b7c8Gx",
-    "video-title": "Miss You (Telugu)",
-    "quality": "720p",
-    "release-year": "2024",
-    "file-size": "910 MB",
-    "title-tag": "New"
-  },
-  {
-    "video-link": "1K9hxtwJT8RjFzrgK3_nWLQfv06J8PWgr",
-    "video-title": "Lucky Baskhar (Kannada)",
-    "quality": "720p",
-    "release-year": "2024",
-    "file-size": "728.5 MB",
-    "title-tag": null
-  },
-  {
-    "video-link": "1_vytnib3RpmfZUvihfxu90GJL8iEyLWW",
-    "video-title": "Amaran (Telugu)",
-    "quality": "720p",
-    "release-year": "2024",
-    "file-size": "1.04 GB",
-    "title-tag": null
-  },
-  {
-    "video-link": "1K-4YiqnhBMFqG8zOmixFJV0ZGUM10n7h",
+    "preview-image": "./moviesDB/queen.webp",
     "video-title": "Queen (Hindi)",
     "quality": "360p",
     "release-year": "2013",
