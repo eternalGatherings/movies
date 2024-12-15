@@ -36,9 +36,9 @@ async function loadVideos() {
                         ${video["title-tag"] ? `<span class="title-tag">${video["title-tag"]}</span>` : ""}
                     </p>
                     <div class="video-info">
-                        <p class="channel-name">Quality - <strong>${video.quality}</strong></p>
-                        <p class="video-views">Release Year - <strong>${video["release-year"]}</strong></p>
-                        <p class="video-size">File size - <strong>${video["file-size"]}</strong></p>
+                        ${video.quality ? `<p class="channel-name">Quality - <strong>${video.quality}</strong></p>` : ""}
+                        ${video["release-year"] ? `<p class="video-views">Release Year - <strong>${video["release-year"]}</strong></p>` : ""}
+                        ${video["file-size"] ? `<p class="video-size">File size - <strong>${video["file-size"]}</strong></p>` : ""}
                     </div>
                 </div>
             `;
