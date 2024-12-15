@@ -31,7 +31,10 @@ async function loadVideos() {
             // Populate video details
             detailsDiv.innerHTML = `
                 <div class="details">
-                    <p class="video-title">${video["video-title"]}</p>
+                    <p>
+                        <span class="video-title">${video["video-title"]}</span>
+                        ${video["title-tag"] ? `<span class="title-tag">${video["title-tag"]}</span>` : ""}
+                    </p>
                     <div class="video-info">
                         <p class="channel-name">Quality - <strong>${video.quality}</strong></p>
                         <p class="video-views">Release Year - <strong>${video["release-year"]}</strong></p>
