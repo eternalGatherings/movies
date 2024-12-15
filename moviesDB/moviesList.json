@@ -1,5 +1,16 @@
 [
   {
+    "video-link": null,
+    "preview-image": [
+      "./moviesDB/mufasa1.jpg",
+      "./moviesDB/mufasa2.jpg",
+      "./moviesDB/mufasa3.jpg",
+      "./moviesDB/mufasa4.jpg"
+    ],
+    "video-title": "Mufasa The Lion King - An Epic Tale Set to Roar This December 2024",
+    "title-tag": "Coming Soon"
+  },
+  {
     "video-link": "1lmIXKFgsYP4ya2LFdtsGFb4aAPzeXXmK",
     "preview-image": "./moviesDB/pushpa2.jpeg",
     "video-title": "Pushpa 2-The Rule (Telugu)",
@@ -7,12 +18,6 @@
     "release-year": "2024",
     "file-size": "1.29 GB",
     "title-tag": "New"
-  },
-  {
-    "video-link": null,
-    "preview-image": "./moviesDB/mufasa.jpeg",
-    "video-title": "Mufasa The Lion King - An Epic Tale Set to Roar This December 2024",
-    "title-tag": "Coming Soon"
   },
   {
     "video-link": "1gxiRrkuvj9gAtaEXQvV1Ketor1b7c8Gx",

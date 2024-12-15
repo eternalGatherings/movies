@@ -17,18 +17,42 @@ async function loadVideos() {
             const thumbnailDiv = document.createElement('div');
             thumbnailDiv.classList.add('video-thumbnail');
             
-            if (video['video-link'])
+            if (video['video-link']) {
                 thumbnailDiv.onclick = function() {
                     playVideo(video['video-link'], video['video-title']);
                 };
 
-            // Create img element
-            const img = document.createElement('img');
-            img.src = `${video["preview-image"]}`;
-            img.alt = `${video["preview-image"]}`;
+                // Create img element
+                const img = document.createElement('img');
+                img.src = `${video["preview-image"]}`;
+                img.alt = `${video["preview-image"]}`;
 
-            thumbnailDiv.appendChild(img);
-
+                thumbnailDiv.appendChild(img);
+            } else {
+                let carouselItems = video["preview-image"]
+                .map((image, index) => {
+                    const activeClass = index === 0 ? "active" : ""; // Add "active" class to the first item
+                    return `
+                        <div class="carousel-item ${activeClass}">
+                            <img src="${image}" class="d-block w-100" alt="image-${index + 1}">
+                        </div>`;
+                })
+                .join("");
+                thumbnailDiv.innerHTML = 
+                `<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    ${carouselItems}
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>`
+            }
             // Create video details div
             const detailsDiv = document.createElement('div');
             detailsDiv.classList.add('video-details');
