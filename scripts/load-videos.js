@@ -17,10 +17,11 @@ async function loadVideos() {
             const thumbnailDiv = document.createElement('div');
             thumbnailDiv.classList.add('video-thumbnail');
             
-            if (video['video-link']) {
-                thumbnailDiv.onclick = function() {
-                    playVideo(video['video-link'], video['video-title']);
-                };
+            if (!Array.isArray(video["preview-image"])) {
+                if (video['video-link'])
+                    thumbnailDiv.onclick = function() {
+                        playVideo(video['video-link'], video['video-title']);
+                    };
 
                 // Create img element
                 const img = document.createElement('img');
@@ -63,6 +64,7 @@ async function loadVideos() {
                     <p>
                         <span class="video-title">${video["video-title"]}</span>
                         ${video["title-tag"] ? `<span class="title-tag">${video["title-tag"]}</span>` : ""}
+                        ${video["title-tag-2"] ? `<span class="title-tag-2">${video["title-tag-2"]}</span>` : ""}
                     </p>
                     <div class="video-info">
                         ${video["quality"] ? `<p class="video-quality">Quality - <strong>${video["quality"]}</strong></p>` : ""}

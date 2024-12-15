@@ -11,6 +11,26 @@
     "title-tag": "Coming Soon"
   },
   {
+    "video-link": null,
+    "preview-image": "./moviesDB/bagheera.jpg",
+    "video-title": "Bagheera (Kannada)",
+    "quality": "1080p",
+    "release-year": "2024",
+    "file-size": "1.4 GB",
+    "title-tag": "Uploading",
+    "title-tag-2": "HD"
+  },
+  {
+    "video-link": null,
+    "preview-image": "./moviesDB/devara.jpg",
+    "video-title": "Devara Part-1 (Telugu)",
+    "quality": "1080p",
+    "release-year": "2024",
+    "file-size": "1.6 GB",
+    "title-tag": "Uploading",
+    "title-tag-2": "HD"
+  },
+  {
     "video-link": "1lmIXKFgsYP4ya2LFdtsGFb4aAPzeXXmK",
     "preview-image": "./moviesDB/pushpa2.jpeg",
     "video-title": "Pushpa 2-The Rule (Telugu)",
