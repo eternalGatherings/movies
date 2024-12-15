@@ -1,7 +1,7 @@
 [
   {
     "video-link": "1lmIXKFgsYP4ya2LFdtsGFb4aAPzeXXmK",
-    "preview-image": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/pushpa-the-rule--part-2-et00356724-1729771762.jpg",
+    "preview-image": "./moviesDB/pushpa2.jpeg",
     "video-title": "Pushpa 2-The Rule (Telugu)",
     "quality": "720p",
     "release-year": "2024",
@@ -10,13 +10,13 @@
   },
   {
     "video-link": null,
-    "preview-image": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/mufasa-the-lion-king-et00396541-1734081980.jpg",
+    "preview-image": "./moviesDB/mufasa.jpeg",
     "video-title": "Mufasa The Lion King - An Epic Tale Set to Roar This December 2024",
     "title-tag": "Coming Soon"
   },
   {
     "video-link": "1gxiRrkuvj9gAtaEXQvV1Ketor1b7c8Gx",
-    "preview-image": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/miss-you-et00400689-1717667748.jpg",
+    "preview-image": "./moviesDB/missyou.jpeg",
     "video-title": "Miss You (Telugu)",
     "quality": "720p",
     "release-year": "2024",
@@ -25,7 +25,7 @@
   },
   {
     "video-link": "1K9hxtwJT8RjFzrgK3_nWLQfv06J8PWgr",
-    "preview-image": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/lucky-baskhar-et00386123-1707118235.jpg",
+    "preview-image": "./moviesDB/luckybaskhar.jpeg",
     "video-title": "Lucky Baskhar (Kannada)",
     "quality": "720p",
     "release-year": "2024",
@@ -34,7 +34,7 @@
   },
   {
     "video-link": "1_vytnib3RpmfZUvihfxu90GJL8iEyLWW",
-    "preview-image": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/amaran-et00388085-1728627184.jpg",
+    "preview-image": "./moviesDB/amaran.jpeg",
     "video-title": "Amaran (Telugu)",
     "quality": "720p",
     "release-year": "2024",
@@ -43,11 +43,11 @@
   },
   {
     "video-link": "1K-4YiqnhBMFqG8zOmixFJV0ZGUM10n7h",
-    "preview-image": "./moviesDB/queen.webp",
+    "preview-image": "./moviesDB/queen.jpeg",
     "video-title": "Queen (Hindi)",
     "quality": "360p",
     "release-year": "2013",
     "file-size": "809.7 MB",
-    "title-tag": null
+    "title-tag": "Old"
   }
 ]
