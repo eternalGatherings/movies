@@ -64,7 +64,11 @@ async function loadVideos() {
                     <p>
                         <span class="video-title">${video["video-title"]}</span>
                         ${video["title-tag"] ? `<span class="title-tag">${video["title-tag"]}</span>` : ""}
+                        ${video["title-tag-1"] ? `<span class="title-tag-1">${video["title-tag-1"]}</span>` : ""}
                         ${video["title-tag-2"] ? `<span class="title-tag-2">${video["title-tag-2"]}</span>` : ""}
+                        ${video["title-tag-3"] ? `<span class="title-tag-3">${video["title-tag-3"]}</span>` : ""}
+                        ${video["title-tag-4"] ? `<span class="title-tag-4">${video["title-tag-4"]}</span>` : ""}
+                        ${video["title-tag-5"] ? `<span class="title-tag-5">${video["title-tag-5"]}</span>` : ""}
                     </p>
                     <div class="video-info">
                         ${video["quality"] ? `<p class="video-quality">Quality - <strong>${video["quality"]}</strong></p>` : ""}

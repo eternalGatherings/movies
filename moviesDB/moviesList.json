@@ -8,7 +8,27 @@
       "./moviesDB/mufasa4.jpg"
     ],
     "video-title": "Mufasa The Lion King - An Epic Tale Set to Roar This December 2024",
-    "title-tag": "Coming Soon"
+    "title-tag-5": "Coming Soon"
+  },
+  {
+    "video-link": null,
+    "preview-image": "./moviesDB/lionking.jpg",
+    "video-title": "The Lion King (English)",
+    "quality": "1080p",
+    "release-year": "2019",
+    "file-size": "1.86 GB",
+    "title-tag": "Coming soon",
+    "title-tag-2": "4K"
+  },
+  {
+    "video-link": null,
+    "preview-image": "./moviesDB/luckybaskhar4.jpg",
+    "video-title": "Lucky Baskhar (Telugu)",
+    "quality": "1080p",
+    "release-year": "2024",
+    "file-size": "728.5 MB",
+    "title-tag": "Coming soon",
+    "title-tag-1": "HD"
   },
   {
     "video-link": "1w5BMb6GDIRrlAETmVT_kq5rk_J-KdWM0",
@@ -18,7 +38,7 @@
     "release-year": "2024",
     "file-size": "1.4 GB",
     "title-tag": "New",
-    "title-tag-2": "HD"
+    "title-tag-1": "HD"
   },
   {
     "video-link": "1ZMXsGn0Z2nM89lo0MSa82rLAoV9JaZMM",
@@ -28,7 +48,7 @@
     "release-year": "2024",
     "file-size": "1.6 GB",
     "title-tag": "New",
-    "title-tag-2": "HD"
+    "title-tag-1": "HD"
   },
   {
     "video-link": "1lmIXKFgsYP4ya2LFdtsGFb4aAPzeXXmK",
