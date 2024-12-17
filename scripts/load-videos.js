@@ -34,7 +34,7 @@ async function loadVideos() {
                 .map((image, index) => {
                     const activeClass = index === 0 ? "active" : ""; // Add "active" class to the first item
                     return `
-                        <div class="carousel-item ${activeClass}">
+                        <div class="carousel-item ${activeClass}" data-bs-interval="1500">
                             <img src="${image}" class="d-block w-100" alt="image-${index + 1}">
                         </div>`;
                 })

@@ -11,23 +11,23 @@
     "title-tag-5": "Coming Soon"
   },
   {
-    "video-link": null,
+    "video-link": "1_7sQwNRnod2yWz-T-c8PHo_Be8ajKiol",
     "preview-image": "./moviesDB/lionking.jpg",
     "video-title": "The Lion King (English)",
     "quality": "1080p",
     "release-year": "2019",
     "file-size": "1.86 GB",
-    "title-tag": "Coming soon",
-    "title-tag-2": "4K"
+    "title-tag": "New",
+    "title-tag-2": "Ultra HD"
   },
   {
-    "video-link": null,
+    "video-link": "1sEfoSQDGxdjHbmKUh_eKjBHcSCpj5hr2",
     "preview-image": "./moviesDB/luckybaskhar4.jpg",
     "video-title": "Lucky Baskhar (Telugu)",
     "quality": "1080p",
     "release-year": "2024",
     "file-size": "728.5 MB",
-    "title-tag": "Coming soon",
+    "title-tag": "New",
     "title-tag-1": "HD"
   },
   {
@@ -85,14 +85,5 @@
     "release-year": "2024",
     "file-size": "1.04 GB",
     "title-tag": null
-  },
-  {
-    "video-link": "1K-4YiqnhBMFqG8zOmixFJV0ZGUM10n7h",
-    "preview-image": "./moviesDB/queen.jpeg",
-    "video-title": "Queen (Hindi)",
-    "quality": "360p",
-    "release-year": "2013",
-    "file-size": "809.7 MB",
-    "title-tag": "Old"
   }
 ]
